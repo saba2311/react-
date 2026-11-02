@@ -181,6 +181,25 @@ function MainLayout() {
                             
                             </Link>
 
+                            <Link to="/formik-form">
+                                Formik Form
+                            
+                            </Link>
+
+                            <Link to="/rhf-form">
+                                RHF Form
+                            
+                            </Link>
+
+                             <Link to="/yup-form">
+                                Yup Form
+                            
+                            </Link>
+
+
+                            
+
+
                           </div>
                     )}
               </div>

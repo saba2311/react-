@@ -29,7 +29,10 @@ import RBNavbarOffcanvas from './pages/interactive_components/RBNavbarOffcanvas'
 import RBNavTabs from './pages/interactive_components/RBNavTabs';
 import RBOverlays from './pages/interactive_components/RBOverlays';
 
-import BasicFormControls from "./pages/Forms/BasicFormControls";
+import RBBasicFormControls from "./pages/Forms/RBBasicFormControls";
+import RBFormikForm from "./pages/Forms/RBFormikForm";
+import RHFForm from "./pages/Forms/RHFForm";
+import RHFFormYup from "./pages/Forms/RHFFormYup";
 
 
 
@@ -139,8 +142,26 @@ const router = createBrowserRouter([
       },
       {
         path: "basic-form-controls",
-        element: <BasicFormControls />,
+        element: <RBBasicFormControls />,
       },
+       {
+        path: "formik-form",
+        element: <RBFormikForm/>,
+      },
+       {
+        path: "rhf-form",
+        element: <RHFForm/>,
+      },
+      {
+        path: "yup-form",
+        element: <RHFFormYup/>,
+      },
+      
+      
+      
+      
+      
+
       
 
 
